@@ -303,24 +303,32 @@ body{
 
 .dark-mode{
 
-    background:#121212;
+    background:#0F0F0F;
 }
 
 .dark-mode .profile-card{
 
-    background:#1E1E1E;
+     background:#1A1A1A;
+
+    box-shadow:
+    0 20px 45px rgba(0,0,0,0.6);
 }
 
 .dark-mode .left-section h1,
 .dark-mode .stat-box h2{
 
-    color:white;
+    color:#F5F5F5;
+}
+
+.dark-mode .right-section{
+
+    background:#222222;
 }
 
 .dark-mode .role,
 .dark-mode .stat-box p{
 
-    color:#cfcfcf;
+    color:#A8A8A8;
 }
 
 .dark-mode .popup-box{
@@ -328,6 +336,23 @@ body{
     background:#1E1E1E;
 
     color:white;
+}
+
+.dark-mode .buttons button{
+
+    background:#8E6E5D;
+
+    color:white;
+}
+
+.dark-mode .buttons button:hover{
+
+    background:#A98472;
+}
+
+.dark-mode .social-icons a{
+
+    color:#C2A191;
 }
 
 /* ANIMATION */
