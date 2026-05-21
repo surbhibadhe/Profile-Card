@@ -1,13 +1,22 @@
-<!-- This is my first html,css mini project -->
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Profile card</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Profile Card</title>
+
+    <!-- Google Font -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- CSS File -->
 
     <link rel="stylesheet" href="style.css">
 
@@ -16,38 +25,59 @@
 <body>
 
     <div class="container">
-        <div class="profile-box">
-            <img src="images/MyImg.png" class="profile-pic">
 
-            <div class="skills">
-                
+        <div class="profile-card">
+
+            <!-- Top Section -->
+
+            <div class="top-section">
+
+                <img src="images/MyImg.png" class="profile-pic" alt="Profile Picture">
+
                 <h1>Surbhi Badhe</h1>
 
-                <a href="https://www.linkedin.com/in/surbhi-badhe-901263377/">
-                    <img src="images/linkedin.png" class="linked-in" alt = "Linkedin">  
-                </a>
+                <p class="role">
+                    Frontend Learner
+                </p>
 
-                <a href="https://x.com/surbhi_badhe03">
-                    <img src="images/twitter.png" class="twitter" alt = "twitter">  
-                </a>
-
-                <a href="https://github.com/surbhibadhe">
-                    <img src="images/github.png" class="github" alt = "github">  
-                </a>
-
-                
-
-                <div class="bio">
-                    <p>Currently pursuing a Bachelor of Technology in Computer Science Engineering at DES Pune University.
-                    </p>
-                    <p>Exploring Frontend</p>
-                </div>
             </div>
-            
+
+            <!-- Bottom Section -->
+
+            <div class="bottom-section">
+
+                <p>
+                    Currently pursuing a Bachelor of Technology in Computer Science Engineering at DES Pune University.
+                </p>
+
+                <div class="social-icons">
+
+                    <a href="https://www.linkedin.com/in/surbhi-badhe-901263377/" target="_blank">
+
+                        <img src="images/linkedin.png" alt="LinkedIn">
+
+                    </a>
+
+                    <a href="https://x.com/surbhi_badhe03" target="_blank">
+
+                        <img src="images/twitter.png" alt="Twitter">
+
+                    </a>
+
+                    <a href="https://github.com/surbhibadhe" target="_blank">
+
+                        <img src="images/github.png" alt="GitHub">
+
+                    </a>
+
+                </div>
+
+            </div>
+
         </div>
-        
+
     </div>
 
-    
 </body>
+
 </html>
