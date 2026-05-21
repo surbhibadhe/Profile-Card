@@ -17,6 +17,11 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
     <!-- CSS -->
 
     <link rel="stylesheet" href="style.css">
@@ -25,11 +30,19 @@
 
 <body>
 
+    <!-- DARK MODE BUTTON -->
+
+    <button class="theme-toggle" id="themeBtn">
+
+        <i class="fa-solid fa-moon"></i>
+
+    </button>
+
     <div class="container">
 
         <div class="profile-card">
 
-            <!-- LEFT SIDE -->
+            <!-- LEFT SECTION -->
 
             <div class="left-section">
 
@@ -38,8 +51,34 @@
                 <h1>Surbhi Badhe</h1>
 
                 <p class="role">
-                    Frontend Developer
+                    Frontend Learner
                 </p>
+
+                <!-- SOCIAL ICONS -->
+
+                <div class="social-icons">
+
+                    <a href="https://github.com/surbhibadhe" target="_blank">
+
+                        <i class="fa-brands fa-github"></i>
+
+                    </a>
+
+                    <a href="https://x.com/surbhi_badhe03" target="_blank">
+
+                        <i class="fa-brands fa-x-twitter"></i>
+
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/surbhi-badhe-901263377/" target="_blank">
+
+                        <i class="fa-brands fa-linkedin"></i>
+
+                    </a>
+
+                </div>
+
+                <!-- BUTTONS -->
 
                 <div class="buttons">
 
@@ -47,7 +86,7 @@
                         Follow
                     </button>
 
-                    <button class="message-btn">
+                    <button class="message-btn" id="messageBtn">
                         Message
                     </button>
 
@@ -55,31 +94,31 @@
 
             </div>
 
-            <!-- RIGHT SIDE -->
+            <!-- RIGHT SECTION -->
 
             <div class="right-section">
 
                 <div class="stat-box">
 
-                    <h2>523</h2>
+                    <h2>HTML</h2>
 
-                    <p>Posts</p>
-
-                </div>
-
-                <div class="stat-box">
-
-                    <h2>1387</h2>
-
-                    <p>Likes</p>
+                    <p>Structure</p>
 
                 </div>
 
                 <div class="stat-box">
 
-                    <h2>146</h2>
+                    <h2>CSS</h2>
 
-                    <p>Followers</p>
+                    <p>Styling</p>
+
+                </div>
+
+                <div class="stat-box">
+
+                    <h2>JS</h2>
+
+                    <p>Learning</p>
 
                 </div>
 
@@ -88,6 +127,26 @@
         </div>
 
     </div>
+
+    <!-- MESSAGE POPUP -->
+
+    <div class="popup" id="popup">
+
+        <div class="popup-box">
+
+            <h2>Send Message</h2>
+
+            <textarea placeholder="Type your message..."></textarea>
+
+            <button class="send-btn">
+                Send
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
 
 </body>
 
